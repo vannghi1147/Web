@@ -1,0 +1,1 @@
+<a href="ymsgr:sendim?nick_cua_ban"><img src="http://opi.yahoo.com/online?u=chang_trai_phong_luu_22_12@yahoo.com&m=g&t=14" height="100" width="150"/></a> 

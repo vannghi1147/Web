@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,td,th {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 12px;
+	color: #000;
+}
+body {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.clear {
+	clear: both;
+	height: 1px;
+}
+.title1 {
+	font-weight: bold;
+	padding: 5px;
+	background-color: #0CF;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #06F;
+}
+.title2 {
+	font-weight: bold;
+	padding: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #06F;
+	margin-left: 10px;
+	background-color: #0CF;
+}
+#header {
+	padding: 10px;
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #09F;
+	color: #FC0;
+	background-image: url(../images/hedder.png);
+	height: 150px;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position: center;
+	text-align: center;
+}
+#footer {
+	padding: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #09F;
+	margin-top: 10px;
+	clear: both;
+	color: #666;
+}
+#content {
+}
+#left  {
+	float: left;
+	width: 200px;
+}
+
+#left ul {
+	list-style-position: inside;
+	margin: 0px;
+	padding: 0px;
+}
+
+#left ul li {
+	padding: 7px;
+	list-style-type: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #03C;
+}
+#left ul li:hover {
+	border-bottom-color: #009;
+	background-color: #CCC;
+	cursor: pointer;
+}
+#right  {
+	margin-left: 210px;
+}
+
+#right .content {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	border-left-width: 1px;
+	border-left-style: dotted;
+	border-left-color: #09F;
+}
+#right ul {
+	padding: 0px;
+	list-style-position: inside;
+	margin: 0px;
+}
+#right ul li {
+	padding: 7px;
+	list-style-type: none;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	margin: 0 0 0 10px;
+}
+#content #left .content ul li a {
+	color: #00F;
+	text-decoration: none;
+}
+#right .title2 #quantri {
+	/* [disabled]float: right; */
+	/* [disabled]width: 150px; */
+	/* [disabled]height: 30px; */
+}
+#right .title2 #quantri a {
+	color: #999;
+	text-decoration: none;
+	font-size: 14px;
+}
